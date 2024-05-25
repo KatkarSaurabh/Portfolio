@@ -1,0 +1,59 @@
+#about{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 75vw;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+    padding-top: 2rem;
+}
+
+.aboutDesc{
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.aboutme{
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%
+}
+
+.educationText{
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+    background-color: rgb(42, 44, 44);
+    width: 50rem;
+    height: fit-content;
+    color: white;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.institute{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

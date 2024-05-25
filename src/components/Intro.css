@@ -1,0 +1,36 @@
+#intro{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    margin: 0 auto;
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    width: 100vw;
+    max-width: 90vw;
+}
+
+.introHello{
+    font-size: 1.3rem;
+    width: 50vw;
+}
+
+.name{
+    width: 50vw;
+    font-size: 4rem;
+    color: skyblue;
+}
+.introName, .introProf{
+    width: 50vw;
+    font-size: 3.5rem;
+}
+
+.introPara{
+    margin-top: 1rem;
+    width: 50vw;
+    font-size: 1.3rem;
+}
+
