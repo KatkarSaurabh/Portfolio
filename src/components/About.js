@@ -5,10 +5,23 @@ function About() {
   return (
     <section id="about">
       <div className="aboutme">About Me</div>
-      <div className="aboutDesc">
-        I am sairawrbj w ajwh aw hwjaewha awh a wajw heawhaewhheaw wh ae wahw
-        ajw aea weawheawehw awje aweajw awe w e wh eaj
+      {/* <div className="aboutDesc">
+        Below are the details related to my experience and educational background
+      </div> */}
+      <hr  style={{width:'20%',color: '#F5F5F5',backgroundColor: 'F5F5F5',height: '0.5px',borderColor : 'F5F5F5'}}/>
+      <div className="heading">Experience:</div>
+      <div className="experience">
+        <div className="educationText">
+          <div className="title"><span>Software Engineer</span><span>July 2022 - Present</span></div>
+          <div className="institute">Optum (United Health Group), Hyderabad</div>
+        </div>
+        <div className="educationText">
+          <div className="title"><span>Software Intern</span><span>Sept 2021 - June 2022</span></div>
+          <div className="institute">NXP Semiconductors, Noida</div>
+        </div>
       </div>
+      <hr  style={{marginTop:'2rem',width:'100%',color: 'white',backgroundColor: 'white',height: '0.5px',borderColor : 'white'}}/>
+      <div className="heading">Education:</div>
       <div className="education">
         <div className="educationText">
           <div className="title"><span>M.Tech, Computer Science and Mathematics</span><span>CGPA: 7.92</span></div>

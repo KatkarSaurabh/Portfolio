@@ -24,12 +24,12 @@ function Navbar() {
     <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
     <AcUnitIcon></AcUnitIcon>
     </IconButton>
-    <Typography color='inherit' component='div' sx={{flexGrow:1}}>
+    <Typography style={{fontSize:'large'}} color='inherit' component='div' sx={{flexGrow:55}}>
       Welcome
     </Typography>
-    <Stack direction='row' spacing={4}>
+    <Stack style={{display:'flex',fontSize:'large'}} direction='row' spacing={4}>
       <Link to='/intro' className='menuItem'>Home</Link>
-      <Link to='/about' className='menuItem'>About</Link>
+      <Link to='/about' className='menuItem'>About Me</Link>
       <Link to='/projects' className='menuItem'>Projects</Link>
       <Link to='/contact' className='menuItem'>ContactMe</Link>
     </Stack>
