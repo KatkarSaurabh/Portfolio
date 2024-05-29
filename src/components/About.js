@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 function About() {
-  console.log("in about");
   return (
     <section id="about">
       <div className="aboutme">About Me</div>
