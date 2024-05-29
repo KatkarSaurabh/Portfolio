@@ -5,9 +5,6 @@ function About() {
   return (
     <section id="about">
       <div className="aboutme">About Me</div>
-      {/* <div className="aboutDesc">
-        Below are the details related to my experience and educational background
-      </div> */}
       <hr  style={{width:'20%',color: '#F5F5F5',backgroundColor: 'F5F5F5',height: '0.5px',borderColor : 'F5F5F5'}}/>
       <div className="heading">Experience:</div>
       <div className="experience">
