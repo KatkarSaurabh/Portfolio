@@ -28,11 +28,11 @@ function About() {
           <div className="institute">Government Engineering College Aurangabad</div>
         </div>
         <div className="educationText">
-          <div className="title"><span>12th Standard</span><span>Marks: 83.54%</span></div>
+          <div className="title"><span>12th Standard</span><span>Percentage: 83.54%</span></div>
           <div className="institute">Pachegaon Mahavidlaya, Georai</div>
         </div>
         <div className="educationText">
-          <div className="title"><span>10th Standard</span><span>Marks: 95.60%</span></div>
+          <div className="title"><span>10th Standard</span><span>Percentage: 95.60%</span></div>
           <div className="institute">Shiv Sharda Public School</div>
         </div>
       </div>
