@@ -10,7 +10,7 @@ function Intro() {
       <div className='introHello'>Hello,</div>
       <div className='introName'>I'm <span className='name'>Saurabh</span>,</div>
       <div className='introProf'>Software Developer</div>
-      <p className='introPara'>I am a skilled Software Developer with experiance in building web apps.</p>
+      <p className='introPara'>I am skilled in building dynamic and user-friendly applications, leveraging expertise in JavaScript, React.js, Node.js, Express.js and MongoDB.</p>
     </section>
     {/* <Footer></Footer> */}
     </>
