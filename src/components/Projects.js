@@ -9,7 +9,7 @@ import portfolioImage from '../assets/portfolioImage.PNG'
 
 function Projects() {
   return (
-    <Box style={{marginLeft:'6rem',marginRight:'6rem',marginTop:"2rem",marginBottom:"4rem"}} >
+    <Box style={{marginLeft:'6rem',marginRight:'6rem',marginTop:"2rem",marginBottom:"20rem"}} >
     <Grid container rowSpacing={4.5} columnSpacing={8}>
       <Grid item xs={12} lg={12} sx={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
       <Typography style={{fontSize:'1.5rem', textAlign:'center', marginTop:'0.2rem'}}>Projects</Typography>
@@ -80,7 +80,7 @@ function Projects() {
         </CardContent>
           <CardActions sx={{display:'flex',justifyContent:'space-between'}}>
             <Button color="info" sx={{maxHeight: '2rem'}} variant="contained"><Link href='https://github.com/KatkarSaurabh/Portfolio' color='inherit' underline="none"><GitHubIcon fontSize='small'/>Code</Link></Button>
-            <Button color="info" sx={{maxHeight: '2rem'}} variant="contained"><Link href='https://aboutssk.netlify.app' color='inherit' underline="none"><PublicIcon fontSize='small' color='inherit'/>LIVE</Link></Button>
+            <Button color="info" sx={{maxHeight: '2rem'}} variant="contained"><Link href='https://portfolioaboutssk.netlify.app' color='inherit' underline="none"><PublicIcon fontSize='small' color='inherit'/>LIVE</Link></Button>
           </CardActions>
         </Card>
       </Grid>
